@@ -1,0 +1,54 @@
+name: "1830: Railways & Robber Barons"
+bank: 12000
+
+companies:
+  - name: "B&O"
+    shares: 10
+  - name: "B&M"
+    shares: 10
+  - name: "C&O"
+    shares: 10
+  - name: "ERIE"
+    shares: 10
+  - name: "NYC"
+    shares: 10
+  - name: "PRR"
+    shares: 10
+  - name: "CPR"
+    shares: 10
+  - name: "NYC&STL"
+    shares: 10
+
+minors:
+  - name: "Schuylkill Valley"
+    revenue: 15
+  - name: "Champlain & St.Lawrence"
+    revenue: 20
+  - name: "Delaware & Hudson"
+    revenue: 25
+  - name: "Mohawk & Hudson"
+    revenue: 30
+  - name: "Camden & Amboy"
+    revenue: 40
+  - name: "Baltimore & Ohio"
+    revenue: 50
+
+trains:
+  - name: "2"
+    cost: 80
+    quantity: 6
+  - name: "3"
+    cost: 180
+    quantity: 5
+  - name: "4"
+    cost: 300
+    quantity: 4
+  - name: "5"
+    cost: 450
+    quantity: 3
+  - name: "6"
+    cost: 630
+    quantity: 2
+  - name: "D"
+    cost: 1100
+    quantity: 9

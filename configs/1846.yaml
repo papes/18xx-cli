@@ -1,0 +1,61 @@
+name: "1846: The Race for the Midwest"
+bank: 9000
+
+companies:
+  - name: "B&O"
+    shares: 10
+  - name: "GT"
+    shares: 10
+  - name: "IC"
+    shares: 10
+  - name: "NYC"
+    shares: 10
+  - name: "ERIE"
+    shares: 10
+  - name: "PRR"
+    shares: 10
+  - name: "C&O"
+    shares: 10
+
+minors:
+  - name: "Michigan Southern"
+    revenue: 20
+  - name: "Big 4"
+    revenue: 30
+  - name: "Lake Shore Line"
+    revenue: 40
+  - name: "Michigan Central"
+    revenue: 40
+  - name: "Ohio & Indiana"
+    revenue: 40
+  - name: "Chicago & Western Indiana"
+    revenue: 60
+  - name: "Mail Contract"
+    revenue: 80
+  - name: "Tunnel Blasting Company"
+    revenue: 60
+  - name: "Steamboat Company"
+    revenue: 40
+
+trains:
+  - name: "2"
+    cost: 80
+    quantity: 7
+  - name: "3/5"
+    cost: 160
+    quantity: 6
+  - name: "4"
+    cost: 180
+    quantity: 5
+  - name: "4/6"
+    cost: 450
+    quantity: 4
+  - name: "5"
+    cost: 800
+    quantity: 3
+  - name: "6"
+    cost: 800
+    quantity: 4
+  - name: "7/8"
+    cost: 900
+    quantity: 7
