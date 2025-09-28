@@ -1,0 +1,40 @@
+title: "1846: The Race for the Midwest"
+description: "18xx game covering the development of railroads in the Midwest United States"
+
+# Dividend settings
+bank_shares_pay_company: false  # Shares in bank pool do not pay dividends to company
+ipo_shares_pay_company: true    # Shares in IPO pay dividends to company (1846 rule)
+
+player_configs:
+  - player_count: 3
+    starting_money: 400
+    bank_money: 10800  # 12000 - (3 * 400)
+  - player_count: 4
+    starting_money: 400
+    bank_money: 10400  # 12000 - (4 * 400)
+  - player_count: 5
+    starting_money: 400
+    bank_money: 10000  # 12000 - (5 * 400)
+
+companies:
+  - id: "PRR"
+    name: "Pennsylvania Railroad"
+    shares: 10
+  - id: "NYC"
+    name: "New York Central Railroad"
+    shares: 10
+  - id: "BO"
+    name: "Baltimore & Ohio Railroad"
+    shares: 10
+  - id: "CO"
+    name: "Chesapeake & Ohio Railway"
+    shares: 10
+  - id: "ERIE"
+    name: "Erie Railroad"
+    shares: 10
+  - id: "GT"
+    name: "Grand Trunk Railway"
+    shares: 10
+  - id: "IC"
+    name: "Illinois Central Railroad"
+    shares: 10

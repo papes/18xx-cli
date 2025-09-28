@@ -1,0 +1,46 @@
+title: "1889: History of Shikoku Railways"
+description: "18xx game covering the development of railroads on Shikoku island, Japan"
+
+# Dividend settings
+bank_shares_pay_company: true   # Shares in bank pool pay dividends to company (1889 rule)
+ipo_shares_pay_company: false   # Shares in IPO do not pay dividends to company
+
+player_configs:
+  - player_count: 2
+    starting_money: 420
+    bank_money: 11160  # 12000 - (2 * 420)
+  - player_count: 3
+    starting_money: 420
+    bank_money: 10740  # 12000 - (3 * 420)
+  - player_count: 4
+    starting_money: 420
+    bank_money: 10320  # 12000 - (4 * 420)
+  - player_count: 5
+    starting_money: 420
+    bank_money: 9900   # 12000 - (5 * 420)
+  - player_count: 6
+    starting_money: 420
+    bank_money: 9480   # 12000 - (6 * 420)
+
+companies:
+  - id: "AWA"
+    name: "Awa Railroad"
+    shares: 10
+  - id: "IYO"
+    name: "Iyo Railroad"
+    shares: 10
+  - id: "SANUKI"
+    name: "Sanuki Railroad"
+    shares: 10
+  - id: "TOSA"
+    name: "Tosa Electric Railway"
+    shares: 10
+  - id: "TAKAMATSU"
+    name: "Takamatsu & Kotohira Electric Railway"
+    shares: 10
+  - id: "KOTOKU"
+    name: "Kotoku Railway"
+    shares: 10
+  - id: "UWAJIMA"
+    name: "Uwajima Railroad"
+    shares: 10

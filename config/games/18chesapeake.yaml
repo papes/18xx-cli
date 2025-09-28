@@ -1,0 +1,43 @@
+title: "18Chesapeake"
+description: "Beginner-friendly 18xx game covering railroads around the Chesapeake Bay"
+
+# Dividend settings
+bank_shares_pay_company: false  # Shares in bank pool do not pay dividends to company
+ipo_shares_pay_company: false   # Shares in IPO do not pay dividends to company
+
+player_configs:
+  - player_count: 3
+    starting_money: 240
+    bank_money: 11280  # 12000 - (3 * 240)
+  - player_count: 4
+    starting_money: 240
+    bank_money: 11040  # 12000 - (4 * 240)
+  - player_count: 5
+    starting_money: 240
+    bank_money: 10800  # 12000 - (5 * 240)
+
+companies:
+  - id: "PRR"
+    name: "Pennsylvania Railroad"
+    shares: 10
+  - id: "BO"
+    name: "Baltimore & Ohio Railroad"
+    shares: 10
+  - id: "CO"
+    name: "Chesapeake & Ohio Railway"
+    shares: 10
+  - id: "LV"
+    name: "Lehigh Valley Railroad"
+    shares: 10
+  - id: "READING"
+    name: "Reading Railroad"
+    shares: 10
+  - id: "WM"
+    name: "Western Maryland Railway"
+    shares: 10
+  - id: "SRR"
+    name: "Strasburg Railroad"
+    shares: 10
+  - id: "PENNSY"
+    name: "Pennsylvania Company"
+    shares: 10
