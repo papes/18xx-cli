@@ -1,10 +1,12 @@
-# 1830 Banking Tool
+# 18xx CLI 
 
-A simple, clean command-line banking tool for 1830: Railways & Robber Barons board game sessions.
+A simple, clean command-line banking tool for 18xx board games. 
+
+Note: this was a project used to pilot Claude Code for professional purpues. Outside of of small edits to this readme and select other files, all code in this repo is ai generated. 
 
 ## Purpose
 
-This CLI tool serves as a **smart ledger** for 1830 games, handling:
+This CLI tool serves as a **smart ledger** for 18xx, handling:
 - Stock transactions (buy/sell shares)
 - Money management (player cash, company treasuries)
 - Banking operations (IPO, bank pool, dividends)
@@ -42,7 +44,7 @@ This CLI tool serves as a **smart ledger** for 1830 games, handling:
 
 ## Architecture
 
-### Clean Functional Design
+### Functional Design
 ```
 18xxCli/
 ├── main.go              # Bubble Tea app entry point
@@ -129,7 +131,6 @@ type Company struct {
 Instead of complex "operating round" commands, use sequences:
 ```bash
 # Company operating round:
-> revenue BO 230        # Company earns revenue
 > pay dividend BO half  # Pay half to shareholders
 > withhold BO 115       # Rest stays in treasury
 > buy train BO 4 100    # Purchase 4-train
@@ -165,6 +166,6 @@ State can be saved/loaded for game sessions spanning multiple days.
 
 ## Design Philosophy
 
-This tool follows the principle of **"simple operations, complex workflows"**. Rather than encoding complex 1830 rules, it provides simple, reliable building blocks that players can use to construct any game situation.
+This tool follows the principle of **"simple operations, complex workflows"**. Rather than encoding complex 1830 or any title rules, it provides simple, reliable building blocks that players can use to construct any game situation.
 
 The tool acts as a smart calculator and ledger, leaving game rules and decisions to the human players while ensuring perfect record-keeping and easy mistake correction.
